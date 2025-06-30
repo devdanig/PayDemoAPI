@@ -52,14 +52,8 @@ PayDemoAPI/
 
 ## ⚙️ Configuración
 
-### 1️⃣ Clona este repositorio:
 
-```bash
-git clone https://github.com/TuUsuario/PayDemoAPI.git
-cd PayDemoAPI
-```
-
-### 2️⃣ Ajusta tu cadena de conexión a SQL Server en `appsettings.json`:
+### Ajusta tu cadena de conexión a SQL Server en `appsettings.json`:
 
 ```json
 {
@@ -69,13 +63,13 @@ cd PayDemoAPI
 }
 ```
 
-### 3️⃣ Aplica las migraciones para crear la base de datos:
+### Aplica las migraciones para crear la base de datos:
 
 ```bash
 dotnet ef database update
 ```
 
-### 4️⃣ Corre el API:
+### Corre el API:
 
 ```bash
 dotnet run
@@ -83,7 +77,7 @@ dotnet run
 
 ---
 
-## ✅ Requisitos
+## Requisitos
 
 - .NET 8 SDK instalado.
 - SQL Server (en local o en contenedor).
